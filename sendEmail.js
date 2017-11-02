@@ -55,9 +55,9 @@ fs.readFile('config.json', 'utf-8', function(err, data) {
             if (error) {
                 return console.log(error);
             }
-            console.log('-----');
-            console.log(' 邮件已发送: ====================> ' + mailOptions.to);
-            console.log('-----');
+            console.log('--------------------------------------------------');
+            console.log(' 邮件已发送: ' + mailOptions.to);
+            console.log('--------------------------------------------------');
         });
     }
     sendemail();
