@@ -15,7 +15,6 @@
   },
   "dependencies": {
     "commander": "^2.9.0",
-    "scanf": "^0.7.3",
-    "webpage": "^0.3.0"
+    "scanf": "^0.7.3"
   }
 }
