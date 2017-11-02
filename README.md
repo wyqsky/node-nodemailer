@@ -1,7 +1,6 @@
-＃基于NODE
 首先：
-    电脑上安装node,有的话就不用安装
-    下载链接: https://nodejs.org/zh-cn/
+电脑上安装node,有的话就不用安装
+下载链接: https://nodejs.org/zh-cn/
 
 安装依赖:
     npm install
