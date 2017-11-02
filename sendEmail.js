@@ -36,9 +36,9 @@ fs.readFile('config.json', 'utf-8', function(err, data) {
 
     var mailOptions = {
         from: config.your_mail, // 发件邮箱地址
-        to: config.receive_mail || config.your_mail, // 收件邮箱地址，可以和发件邮箱一样 859591608
-        subject: '车次-G1970 二等座-无 一等座-无 商务座-有', // 邮件标题
-        html: '<h1>车次-G1970 二等座-无 一等座-无 商务座-有 出发时间-06:09 到达时间-11:00 历时-04:51</h1>' // html body 也可以用text文本
+        to: config.receive_mail || config.your_mail, // 收件邮箱地址，可以和发件邮箱一样
+        subject: '邮件标题', //
+        html: '<p>可以添加html文本</p>' // html body 也可以用text文本
         // 下面是发送附件，不需要就注释掉
         // attachments: [{
         //        filename: 'fujian.txt',`
